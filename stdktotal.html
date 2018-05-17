@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<title>Studio Dookie</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('imagens/equipo.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
+    <p><button onclick="document.getElementById('equipamentos').style.display='block'" class="w3-button w3-black">equipamentos</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">agende</button></p>
+
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">24 Horas</p>
+    <p class="w3-large">Av. do Cursino, 1200 - São Paulo</p>
+    <!-- midias footer -->
+                        <div id="midias" class="">
+                          <a href="http://www.facebook.com/studiodookie">
+                              <img style="width: 40px;" src="imagens/facebook.ico">
+                             </a>
+                             <a href="http://www.instagram.com/studiodookie">
+                              <img style="width: 35px;" src="imagens/instagramq.ico">
+                             </a>
+                             <a href="http://www.youtube.com/">
+                              <img style="width: 35px;" src="imagens/youtube.png">
+                             </a>
+    <p>by<a href="https://www.monteirocamis.github.io/home.html" target="_blank">Camis</a></p>
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Ensaios</h1>
+    </div>
+    <div class="w3-container w3-white ">
+      <h5>Tomato Soup <b>$2.50</b></h5>
+
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Gravações</h1>
+    </div>
+    <div class="w3-container w3-white">
+      <h5>Grilled Fish and Potatoes <b>$8.50</b></h5>
+      <h5>Italian Pizza <b>$5.50</b></h5>
+
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Aluguel de equipamento</h1>
+    </div>
+    <div class="w3-container w3-white">
+      <h5>Fruit Salad <b>$2.50</b></h5>
+      <h5>Ice cream <b>$2.00</b></h5>
+
+    </div>
+  </div>
+</div>
+
+<!-- equipamentos modal -->
+<div id="equipamentos" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('equipamentos').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+
+    </div>
+
+      <div style="background-color: black;" >
+     <img src="imagens/equipoantigo.jpg" >
+    </div>
+
+
+
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Contato</h1>
+    </div>
+    <div class="w3-container">
+
+
+
+    </div>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
